@@ -10,10 +10,10 @@
 .main_bar {
 	width: 100%;
 	display: table;
-
+	margin-top: 20px;
 }
 .main_bar:first-child {
-	margin-bottom: 20px;
+	margin-top: 0;
 }
 
 .bar_box {
