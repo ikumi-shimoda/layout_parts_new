@@ -4,7 +4,9 @@
 .main_box {
     width: 940px;
     margin: 0 auto;
+    padding: 20px;
     background-color: #eff3f4;
+    box-sizing: border-box;
 }
 .clearfix:after {
     display: block;
@@ -12,20 +14,20 @@
     clear: both;
   } 
 .inner_box {
-    width: 270px;
     float: left;
-    margin: 20px 0 20px 20px;
-    background-color: #3274ae;
+    margin-left: 20px;
+    padding: 20px;
+    width: 230px;
+    background-color:  #3274ae;
 }
-.sub_box {
-    width: 210px;
-    margin: 20px;
-    border: 10px solid #022336;
-    background-color: #eaf4ff;
+.inner_box:first-child {
+    margin-left: 0;
 }
 .inner_txt {
-    margin: 20px;
+    padding: 20px;
     font-size: 16px;
     line-height: 16px;
+    border: 10px solid #022336;
+    background-color: #eaf4ff;
 }
 /* 回答はここに書いてね */

@@ -6,11 +6,11 @@
     padding: 20px;
     background-color: #eff3f4;
 }
-.table {
+.main_bar {
     width: 100%;
     display: table;
 }
-.table:first-child {
+.main_bar:first-child {
     margin-bottom: 20px;
 }
 .fix_box {
