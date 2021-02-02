@@ -2,61 +2,72 @@
 
 /* 回答はここに書いてね */
 .left_box {
-    text-align: center;
+	text-align: center;
 }
+
 .left_txt {
-    padding: 10px 0;
-    width: 90px;
-    display: inline-block;
-    background-color: #e6f2ff;
+	padding: 10px 0;
+	width: 90px;
+	display: inline-block;
+	background-color: #e6f2ff;
 }
+
 .right_txt {
-    margin: 0 auto;
-    padding: 10px 0;
-    width: 90px;
-    text-align: center;
-    background-color: #e6f2ff;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 90px;
+	text-align: center;
+	background-color: #e6f2ff;
 }
+
 .table_wrapper {
-    display: table;
+	display: table;
 }
+
 .table_box {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
+
 .table_txt {
-    padding: 10px;
-    display: inline-block;
-    background-color: #fff;
+	padding: 10px;
+	display: inline-block;
+	background-color: #fff;
 }
+
 .flex_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 .flex_txt {
-    padding: 10px;
-    background-color: #fff;
+	padding: 10px;
+	background-color: #fff;
 }
+
 .position_wrapper {
-    position: relative;
+	position: relative;
 }
+
 .position_txt {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
+
 .flex_wrapper {
-    position: relative;
+	position: relative;
 }
-.flex_txt {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.position_flex_txt {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 /* 回答はここに書いてね */
