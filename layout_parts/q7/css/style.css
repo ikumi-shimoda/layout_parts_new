@@ -8,30 +8,32 @@
 	clear: both;
 }
 
-.float_box {
+.common_box {
+	box-sizing: border-box;
+	font-size: 16px;
 	width: 225px;
+}
+
+.float_box {
 	float: left;
 	margin-left: 50px;
-	box-sizing: border-box;
 }
 
 .float_box:first-child {
 	margin-left: 0;
 }
 
-.table_box {
+.table_inner {
 	display: table;
 }
 
-.table_txt {
+.table_box {
 	display: table-cell;
 	vertical-align: middle;
-	word-break: break-word;
 	padding-left: 50px;
-	width: 255px;
 }
 
-.table_txt:first-child {
+.table_box:first-child {
 	padding-left: 0;
 }
 
@@ -42,10 +44,7 @@
 .inline_box {
 	display: inline-block;
 	vertical-align: middle;
-	box-sizing: border-box;
-	font-size: 16px;
 	margin-left: 50px;
-	width: 225px;
 }
 .inline_box:first-child {
 	margin-left: 0;
@@ -55,12 +54,6 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
-}
-
-.flex_box {
-	width: 225px;
-	font-size: 16px;
-	box-sizing: border-box;
 }
 
 .fixed_box {
@@ -74,10 +67,6 @@
 	margin-left: -300px;
 	padding-left: 350px;
 	vertical-align: top;
-	box-sizing: border-box;
 }
 
-.box_txt {
-	font-size: 16px;
-}
 /* 回答はここに書いてね */
